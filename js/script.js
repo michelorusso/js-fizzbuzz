@@ -10,11 +10,11 @@ for( var i = 1; i <= 100; i++) {
     // per i multipli di 3 stampiamo "fizz"
 
     if ( numeri % 3 === 0 && numeri % 5 === 0) {
-        console.log('fizzbuzz');
+        console.log('FizzBuzz');
     } else if( numeri % 5 === 0) {
-        console.log('buzz')
+        console.log('Buzz')
     } else if( numeri % 3 === 0) {
-        console.log('fizz')
+        console.log('Fizz')
     } else {
         console.log(numeri);
     }
